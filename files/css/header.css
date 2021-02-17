@@ -15,6 +15,12 @@ header {
     background-color: #3d3d3d;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
 .container {
     width: 92%;
     max-width: 71em;
