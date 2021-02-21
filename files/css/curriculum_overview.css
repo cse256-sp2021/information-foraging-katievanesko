@@ -24,3 +24,22 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+
+.bullet p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    font-size: 33px;
+    margin-top: 24px;
+}
+
+main h3 {
+    font-size: 23px;
+}
+
+.curr-img {
+    height: 330px;
+    overflow: hidden;
+}
