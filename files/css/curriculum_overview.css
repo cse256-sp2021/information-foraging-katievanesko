@@ -43,3 +43,8 @@ main h3 {
     height: 330px;
     overflow: hidden;
 }
+
+.curr_subcat {
+    margin-left: 20px;
+    font-size: .8rem;
+}
