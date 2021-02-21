@@ -1,55 +1,59 @@
 @import url("common.css");
 @import url("side_menu.css");
 main ul {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 main li {
-    font-size: 1.15em;
-    margin-bottom: 1em;
+  font-size: 1.15em;
+  margin-bottom: 1em;
 }
 
 .classroom {
-    margin-top: 6em;
-    margin-bottom: 1em;
-    clear: both;
-    overflow: hidden;
+  margin-top: 6em;
+  margin-bottom: 1em;
+  clear: both;
+  overflow: hidden;
 }
 
 .classroom img {
-    float: left;
-    margin-right: 2.5em;
+  float: left;
+  margin-right: 2.5em;
 }
 
 .classroom p {
-    font-size: 1.15em;
+  font-size: 1.15em;
 }
 
-.bullet p{
-    font-size: 17px;
-    margin-bottom: 10px;
+.bullet p {
+  font-size: 17px;
+  margin-bottom: 10px;
 }
 
 main h2 {
-    font-size: 33px;
-    margin-top: 24px;
+  font-size: 33px;
+  margin-top: 24px;
 }
 
 main h3 {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 .curr-img {
-    height: 330px;
-    overflow: hidden;
+  height: 330px;
+  overflow: hidden;
 }
 
 .curr_subcat {
-    margin-left: 20px;
-    font-size: .8rem;
+  margin-left: 20px;
+  font-size: 0.8rem;
 }
 
 .curr_subcat_subcat {
-    margin-left: 35px;
-    font-size: .7rem;
+  margin-left: 35px;
+  font-size: 0.7rem;
+}
+
+.links {
+  margin: 10px;
 }
