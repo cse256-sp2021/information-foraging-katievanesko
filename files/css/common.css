@@ -45,18 +45,38 @@ main h1 {
 
 main h2 {
     color: rgb(85, 85, 85);
-    font-size: 27.648px;
+    font-size: 33px;
     font-weight: 300;
     line-height: 36.8548px;
     margin-bottom: 24px;
+    margin-top: 24px;
 }
 
 main h3 {
     color: rgb(85, 85, 85);
-    font-size: 27px;
+    font-size: 23px;
     font-weight: 300;
     line-height: 37px;
 }
+
+
+.bullet p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.curr-img {
+    height: 330px;
+    overflow: hidden;
+}
+
+.subcat {
+    margin-left: 20px;
+    font-size: .8rem;
+}
+
+
+
 
 main p a,
 main h1 a,
