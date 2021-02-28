@@ -15,7 +15,7 @@ main {
 
 .stick {
   position: sticky;
-  top: 15px;
+  top: 60px;
 }
 
 ul.subnav > .current_page_item > a {
@@ -36,7 +36,7 @@ ul.subnav a {
 }
 
 ul.subnav ul a {
-  font-size: 0.875em;
+  font-size: 1.1em;
   font-weight: 600;
   line-height: 1.25em;
   padding: 5px;
