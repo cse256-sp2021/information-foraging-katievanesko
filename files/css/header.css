@@ -16,9 +16,20 @@ header {
   z-index: 10;
 }
 
+.banner {
+  margin-top: 140px !important;
+  position: fixed;
+}
+
 .sticky {
   position: fixed;
-  top: 43px;
+  margin-top: -150px;
+  width: 100%;
+}
+
+.banner.sticky {
+  margin-top: 140px !important;
+  position: fixed;
   width: 100%;
 }
 
