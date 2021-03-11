@@ -69,17 +69,16 @@ main h3 {
   overflow: hidden;
 }
 
-.subcat {
-  margin-left: 30px;
-  font-size: 0.9em;
-}
-
 main p a,
 main h1 a,
 main h2 a,
 main h3 a,
 main h4 a {
   color: #a51417;
+}
+
+h2 {
+  color: #a51417 !important;
 }
 
 #naeyc-logo {

@@ -1,7 +1,7 @@
 @import url("common.css");
-@import url("side_menu.css");
+/* @import url("side_menu.css"); */
 
 .history-left {
-    float: left;
-    margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }

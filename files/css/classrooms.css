@@ -1,39 +1,39 @@
 @import url("common.css");
-@import url("side_menu.css");
+/* @import url("side_menu.css"); */
 main ul {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 main li {
-    font-size: 1.15em;
-    margin-bottom: 1em;
+  font-size: 1.15em;
+  margin-bottom: 1em;
 }
 
 .classroom {
-    margin-top: 2em;
-    margin-bottom: 1em;
-    clear: both;
-    overflow: hidden;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  clear: both;
+  overflow: hidden;
 }
 
 .classroom img {
-    float: left;
-    margin-right: 2.5em;
+  float: left;
+  margin-right: 2.5em;
 }
 
 .classroom p {
-    font-size: 1.15em;
+  font-size: 1.15em;
 }
 
 .class-desc {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .schedule {
-    text-align: center;
-    margin-bottom: 25px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 #opening {
-    margin-bottom:20px;
+  margin-bottom: 20px;
 }

@@ -7,20 +7,24 @@ import { Slideshow } from './slideshow';
 // Put all function calls that need to be made on every page load inside the setupAll function body.
 export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     // TODO: Put all operations that you want to happen on ever page load in this function.
-    // For example you could write: Sticky.setup()
-    // doSomething();
-    // When the user scrolls the page, execute myFunction 
-    window.onscroll = function() {setupSticky()};
+
+    var home = document.getElementById("homepage");
+    if (document.body.contains(home)) {
+      alert(
+        "MINIMIZE BANNER TO SEE FULL PAGE (using button in top right corner)"
+      );
+    }
 }
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function setupSticky() {
     var header = document.getElementById("main-menu-container");
+    var banner = document.getElementById("mturk-top-banner-drop-down-content");
     var sticky = header.offsetTop;
     if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
+      header?.classList.add("sticky");
     } else {
-      header.classList.remove("sticky");
+      header?.classList.remove("sticky");
     }
   }
 
