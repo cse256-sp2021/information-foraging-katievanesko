@@ -9,11 +9,11 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     // TODO: Put all operations that you want to happen on ever page load in this function.
 
     var home = document.getElementById("homepage");
-    if (document.body.contains(home)) {
-      alert(
-        "MINIMIZE BANNER TO SEE FULL PAGE (using button in top right corner)"
-      );
-    }
+    // if (document.body.contains(home)) {
+    //   alert(
+    //     "MINIMIZE BANNER TO SEE FULL PAGE (using button in top right corner)"
+    //   );
+    // }
     window.onscroll = function() {setupSticky()}
 
     const banner = document.querySelector('#mturk-top-banner-drop-down-content');
@@ -35,7 +35,6 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
             header?.classList.add("banner");
             console.log("banner added");
           }
-          
         }
       });
     });
