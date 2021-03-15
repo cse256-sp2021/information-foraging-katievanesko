@@ -64,13 +64,14 @@ export class SubmitForm {
                         workerID: data.urlData.workerID,
                         log: data.serialize(),
                     }),
-                }); // TODO: verify this actually works
+                });
                 console.log(resp.status);
-                console.log(await resp.json());
+                const jsonResp = await resp.json();
+                console.log(jsonResp);
                 if (resp.status !== 200) {
                     alert(
                         'You made a bad request with your submission. The server thinks that you made this error: ' +
-                            (await resp.json()).error
+                            jsonResp.error
                     );
                     return;
                 }
