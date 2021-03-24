@@ -7,13 +7,7 @@ import { Slideshow } from './slideshow';
 // Put all function calls that need to be made on every page load inside the setupAll function body.
 export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     // TODO: Put all operations that you want to happen on ever page load in this function.
-
-    var home = document.getElementById("homepage");
-    // if (document.body.contains(home)) {
-    //   alert(
-    //     "MINIMIZE BANNER TO SEE FULL PAGE (using button in top right corner)"
-    //   );
-    // }
+    
     window.onscroll = function() {setupSticky()}
 
     const banner = document.querySelector('#mturk-top-banner-drop-down-content');
