@@ -13,9 +13,9 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     const banner = document.querySelector('#mturk-top-banner-drop-down-content');
     var header = document.getElementById("main-menu-container");
     console.log(banner)
-    if (banner?.classList.contains("none")) {
-      header?.classList.remove("banner");
-    }
+    // if (banner?.classList.contains("none")) {
+    //   header?.classList.remove("banner");
+    // }
     
     var observer = new MutationObserver(function(mutations) {
       mutations.forEach(function(mutation) {
@@ -28,6 +28,9 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
           if (banner?.classList.contains("display")) {
             header?.classList.add("banner");
             console.log("banner added");
+          }
+          if (banner?.classList.contains("none")) {
+            header?.classList.remove("banner");
           }
         }
       });
