@@ -149,7 +149,7 @@ header a {
   text-align: left;
 }
 #enrich {
-  background-color: white;
+  background-color: #f9f9f9;
 }
 
 #enrichment-programs {
@@ -177,4 +177,9 @@ header a {
   left: 100%;
   top: 0;
   background-color: #ddd;
+}
+
+#enrich:hover {
+  background-color: #ddd;
+  text-decoration: underline;
 }
