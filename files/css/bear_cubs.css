@@ -81,3 +81,12 @@ main li {
 #class-schedule td {
   border: 1px solid #ddd;
 }
+
+.column a {
+  color: #a51417;
+  text-decoration: underline;
+  display: block;
+  padding-left: 24px;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+}

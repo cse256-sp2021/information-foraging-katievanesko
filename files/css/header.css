@@ -183,3 +183,8 @@ header a {
   background-color: #ddd;
   text-decoration: underline;
 }
+
+.subdrop a:hover {
+  background-color: gray !important;
+  color: white !important;
+}
