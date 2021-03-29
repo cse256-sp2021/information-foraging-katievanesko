@@ -9,13 +9,15 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     // TODO: Put all operations that you want to happen on ever page load in this function.
     
     window.onscroll = function() {setupSticky()}
-
+    console.log("inside student setup");
     const banner = document.querySelector('#mturk-top-banner-drop-down-content');
-    var header = document.getElementById("main-menu-container");
+    const header = document.getElementById("main-menu-container");
     if (banner?.classList.contains("none")) {
       if (header?.classList.contains("banner")){
         header?.classList.remove("banner");
         console.log("page reload removed banner class")
+      } else {
+        console.log("banner class not  in header")
       }
     } else {
       console.log("in else class of banner empty or display");
@@ -32,7 +34,6 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
             header?.classList.remove("banner");
             console.log("mutation: banner removed");
           }
-          
         }
       });
     });
