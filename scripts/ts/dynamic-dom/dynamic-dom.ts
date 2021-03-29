@@ -14,7 +14,9 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     var header = document.getElementById("main-menu-container");
     console.log(banner)
     if (banner?.classList.contains("none")) {
-      header?.classList.remove("banner");
+      if (header?.classList.contains("banner")){
+        header?.classList.remove("banner");
+      }
     }
     
     var observer = new MutationObserver(function(mutations) {
