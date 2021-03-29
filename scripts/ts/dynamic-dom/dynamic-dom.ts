@@ -12,11 +12,13 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
 
     const banner = document.querySelector('#mturk-top-banner-drop-down-content');
     var header = document.getElementById("main-menu-container");
-    console.log(banner)
     if (banner?.classList.contains("none")) {
       if (header?.classList.contains("banner")){
         header?.classList.remove("banner");
+        console.log("page reload removed banner class")
       }
+    } else {
+      console.log("in else class of banner empty or display");
     }
     
     var observer = new MutationObserver(function(mutations) {
@@ -24,10 +26,11 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
         if (mutation.type == "attributes") {
           if (banner?.classList.contains("display")) {
             header?.classList.add("banner");
-            console.log("banner added");
+            console.log("mutation: banner added");
           }
           if (banner?.classList.contains("none")) {
             header?.classList.remove("banner");
+            console.log("mutation: banner removed");
           }
           
         }
