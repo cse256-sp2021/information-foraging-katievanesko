@@ -13,12 +13,8 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     const banner = document.querySelector('#mturk-top-banner-drop-down-content');
     const header = document.getElementById("main-menu-container");
     if (banner?.classList.contains("none")) {
-      if (header?.classList.contains("banner")){
         header?.classList.remove("banner");
         console.log("page reload removed banner class")
-      } else {
-        console.log("banner class not  in header")
-      }
     } else {
       console.log("in else class of banner empty or display");
     }
